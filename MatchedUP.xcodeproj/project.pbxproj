@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18078A4EFC23405C95A4C8A7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D03A4498ECA4DCCA59355E0 /* libPods.a */; };
+		CA0AE7F319CFC23B006F215B /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0AE7F219CFC23B006F215B /* ChatViewController.m */; };
 		CA82BB7619CE6583006E3C0F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA82BB7519CE6583006E3C0F /* main.m */; };
 		CA82BB7919CE6583006E3C0F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA82BB7819CE6583006E3C0F /* AppDelegate.m */; };
-		CA82BB7C19CE6583006E3C0F /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA82BB7B19CE6583006E3C0F /* FirstViewController.m */; };
-		CA82BB7F19CE6583006E3C0F /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA82BB7E19CE6583006E3C0F /* SecondViewController.m */; };
 		CA82BB8219CE6583006E3C0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA82BB8019CE6583006E3C0F /* Main.storyboard */; };
 		CA82BB8419CE6583006E3C0F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA82BB8319CE6583006E3C0F /* Images.xcassets */; };
 		CA82BB8719CE6583006E3C0F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA82BB8519CE6583006E3C0F /* LaunchScreen.xib */; };
 		CA82BB9319CE6583006E3C0F /* MatchedUPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA82BB9219CE6583006E3C0F /* MatchedUPTests.m */; };
+		CA82BB9E19CE67CD006E3C0F /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA82BB9D19CE67CD006E3C0F /* LoginViewController.m */; };
+		CAB26DBF19CE7E24006A148C /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB26DBE19CE7E24006A148C /* Constants.m */; };
+		CAB26DC319CE9188006A148C /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB26DC219CE9188006A148C /* HomeViewController.m */; };
+		CAB26DC719CE948F006A148C /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB26DC619CE948F006A148C /* SettingViewController.m */; };
+		CAB26DCB19CE9688006A148C /* EditProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB26DCA19CE9688006A148C /* EditProfileViewController.m */; };
+		CAB26DCF19CE9875006A148C /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB26DCE19CE9875006A148C /* ProfileViewController.m */; };
+		CAB26DD319CF5216006A148C /* TestUser.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB26DD219CF5216006A148C /* TestUser.m */; };
+		CAB26DD519CF526A006A148C /* ProfileImage1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CAB26DD419CF526A006A148C /* ProfileImage1.jpeg */; };
+		CAB26DD919CFBE62006A148C /* MatchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB26DD819CFBE62006A148C /* MatchViewController.m */; };
+		CAB26DDD19CFC017006A148C /* MatchesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB26DDC19CFC017006A148C /* MatchesViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,21 +38,41 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D03A4498ECA4DCCA59355E0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA0AE7F119CFC23B006F215B /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		CA0AE7F219CFC23B006F215B /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
 		CA82BB7019CE6583006E3C0F /* MatchedUP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MatchedUP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA82BB7419CE6583006E3C0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA82BB7519CE6583006E3C0F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CA82BB7719CE6583006E3C0F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CA82BB7819CE6583006E3C0F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CA82BB7A19CE6583006E3C0F /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		CA82BB7B19CE6583006E3C0F /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		CA82BB7D19CE6583006E3C0F /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		CA82BB7E19CE6583006E3C0F /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		CA82BB8119CE6583006E3C0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CA82BB8319CE6583006E3C0F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CA82BB8619CE6583006E3C0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		CA82BB8C19CE6583006E3C0F /* MatchedUPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatchedUPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA82BB9119CE6583006E3C0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA82BB9219CE6583006E3C0F /* MatchedUPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatchedUPTests.m; sourceTree = "<group>"; };
+		CA82BB9C19CE67CD006E3C0F /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		CA82BB9D19CE67CD006E3C0F /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		CA98898D19CE743700A81665 /* MatchedUP-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MatchedUP-Prefix.pch"; sourceTree = "<group>"; };
+		CAB26DBD19CE7E24006A148C /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		CAB26DBE19CE7E24006A148C /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		CAB26DC119CE9188006A148C /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		CAB26DC219CE9188006A148C /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		CAB26DC519CE948F006A148C /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		CAB26DC619CE948F006A148C /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		CAB26DC919CE9688006A148C /* EditProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditProfileViewController.h; sourceTree = "<group>"; };
+		CAB26DCA19CE9688006A148C /* EditProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditProfileViewController.m; sourceTree = "<group>"; };
+		CAB26DCD19CE9875006A148C /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		CAB26DCE19CE9875006A148C /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		CAB26DD119CF5216006A148C /* TestUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestUser.h; sourceTree = "<group>"; };
+		CAB26DD219CF5216006A148C /* TestUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestUser.m; sourceTree = "<group>"; };
+		CAB26DD419CF526A006A148C /* ProfileImage1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ProfileImage1.jpeg; sourceTree = "<group>"; };
+		CAB26DD719CFBE62006A148C /* MatchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatchViewController.h; sourceTree = "<group>"; };
+		CAB26DD819CFBE62006A148C /* MatchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatchViewController.m; sourceTree = "<group>"; };
+		CAB26DDB19CFC017006A148C /* MatchesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatchesViewController.h; sourceTree = "<group>"; };
+		CAB26DDC19CFC017006A148C /* MatchesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatchesViewController.m; sourceTree = "<group>"; };
+		DDF505299FA64FB0A3A47E0B /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18078A4EFC23405C95A4C8A7 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,12 +94,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A85BB3DF4D2145A7ABAC5B71 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D03A4498ECA4DCCA59355E0 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CA82BB6719CE6583006E3C0F = {
 			isa = PBXGroup;
 			children = (
 				CA82BB7219CE6583006E3C0F /* MatchedUP */,
 				CA82BB8F19CE6583006E3C0F /* MatchedUPTests */,
 				CA82BB7119CE6583006E3C0F /* Products */,
+				DDF505299FA64FB0A3A47E0B /* Pods.xcconfig */,
+				A85BB3DF4D2145A7ABAC5B71 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,11 +127,16 @@
 			children = (
 				CA82BB7719CE6583006E3C0F /* AppDelegate.h */,
 				CA82BB7819CE6583006E3C0F /* AppDelegate.m */,
-				CA82BB7A19CE6583006E3C0F /* FirstViewController.h */,
-				CA82BB7B19CE6583006E3C0F /* FirstViewController.m */,
-				CA82BB7D19CE6583006E3C0F /* SecondViewController.h */,
-				CA82BB7E19CE6583006E3C0F /* SecondViewController.m */,
 				CA82BB8019CE6583006E3C0F /* Main.storyboard */,
+				CAB26DDE19CFC079006A148C /* Chat */,
+				CAB26DDA19CFBFFE006A148C /* Matches */,
+				CAB26DD619CFBE43006A148C /* Match */,
+				CAB26DD019CF51F4006A148C /* CreateParseUser */,
+				CAB26DCC19CE9857006A148C /* Profile */,
+				CAB26DC819CE964D006A148C /* EditProfile */,
+				CAB26DC419CE946E006A148C /* Setting */,
+				CA82BB9F19CE67D6006E3C0F /* Login */,
+				CAB26DC019CE915D006A148C /* Home */,
 				CA82BB8319CE6583006E3C0F /* Images.xcassets */,
 				CA82BB8519CE6583006E3C0F /* LaunchScreen.xib */,
 				CA82BB7319CE6583006E3C0F /* Supporting Files */,
@@ -101,8 +147,12 @@
 		CA82BB7319CE6583006E3C0F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CAB26DD419CF526A006A148C /* ProfileImage1.jpeg */,
+				CA98898D19CE743700A81665 /* MatchedUP-Prefix.pch */,
 				CA82BB7419CE6583006E3C0F /* Info.plist */,
 				CA82BB7519CE6583006E3C0F /* main.m */,
+				CAB26DBD19CE7E24006A148C /* Constants.h */,
+				CAB26DBE19CE7E24006A148C /* Constants.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -124,6 +174,87 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		CA82BB9F19CE67D6006E3C0F /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				CA82BB9C19CE67CD006E3C0F /* LoginViewController.h */,
+				CA82BB9D19CE67CD006E3C0F /* LoginViewController.m */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		CAB26DC019CE915D006A148C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CAB26DC119CE9188006A148C /* HomeViewController.h */,
+				CAB26DC219CE9188006A148C /* HomeViewController.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		CAB26DC419CE946E006A148C /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				CAB26DC519CE948F006A148C /* SettingViewController.h */,
+				CAB26DC619CE948F006A148C /* SettingViewController.m */,
+			);
+			name = Setting;
+			sourceTree = "<group>";
+		};
+		CAB26DC819CE964D006A148C /* EditProfile */ = {
+			isa = PBXGroup;
+			children = (
+				CAB26DC919CE9688006A148C /* EditProfileViewController.h */,
+				CAB26DCA19CE9688006A148C /* EditProfileViewController.m */,
+			);
+			name = EditProfile;
+			sourceTree = "<group>";
+		};
+		CAB26DCC19CE9857006A148C /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				CAB26DCD19CE9875006A148C /* ProfileViewController.h */,
+				CAB26DCE19CE9875006A148C /* ProfileViewController.m */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		CAB26DD019CF51F4006A148C /* CreateParseUser */ = {
+			isa = PBXGroup;
+			children = (
+				CAB26DD119CF5216006A148C /* TestUser.h */,
+				CAB26DD219CF5216006A148C /* TestUser.m */,
+			);
+			name = CreateParseUser;
+			sourceTree = "<group>";
+		};
+		CAB26DD619CFBE43006A148C /* Match */ = {
+			isa = PBXGroup;
+			children = (
+				CAB26DD719CFBE62006A148C /* MatchViewController.h */,
+				CAB26DD819CFBE62006A148C /* MatchViewController.m */,
+			);
+			name = Match;
+			sourceTree = "<group>";
+		};
+		CAB26DDA19CFBFFE006A148C /* Matches */ = {
+			isa = PBXGroup;
+			children = (
+				CAB26DDB19CFC017006A148C /* MatchesViewController.h */,
+				CAB26DDC19CFC017006A148C /* MatchesViewController.m */,
+			);
+			name = Matches;
+			sourceTree = "<group>";
+		};
+		CAB26DDE19CFC079006A148C /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				CA0AE7F119CFC23B006F215B /* ChatViewController.h */,
+				CA0AE7F219CFC23B006F215B /* ChatViewController.m */,
+			);
+			name = Chat;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -131,9 +262,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CA82BB9619CE6583006E3C0F /* Build configuration list for PBXNativeTarget "MatchedUP" */;
 			buildPhases = (
+				D59AEEDB7C8648B597208B7A /* Check Pods Manifest.lock */,
 				CA82BB6C19CE6583006E3C0F /* Sources */,
 				CA82BB6D19CE6583006E3C0F /* Frameworks */,
 				CA82BB6E19CE6583006E3C0F /* Resources */,
+				B1F799E62D6B4C289398122C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -204,6 +337,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAB26DD519CF526A006A148C /* ProfileImage1.jpeg in Resources */,
 				CA82BB8219CE6583006E3C0F /* Main.storyboard in Resources */,
 				CA82BB8719CE6583006E3C0F /* LaunchScreen.xib in Resources */,
 				CA82BB8419CE6583006E3C0F /* Images.xcassets in Resources */,
@@ -219,15 +353,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B1F799E62D6B4C289398122C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D59AEEDB7C8648B597208B7A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CA82BB6C19CE6583006E3C0F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA82BB7F19CE6583006E3C0F /* SecondViewController.m in Sources */,
 				CA82BB7919CE6583006E3C0F /* AppDelegate.m in Sources */,
-				CA82BB7C19CE6583006E3C0F /* FirstViewController.m in Sources */,
+				CAB26DDD19CFC017006A148C /* MatchesViewController.m in Sources */,
+				CA0AE7F319CFC23B006F215B /* ChatViewController.m in Sources */,
 				CA82BB7619CE6583006E3C0F /* main.m in Sources */,
+				CAB26DCF19CE9875006A148C /* ProfileViewController.m in Sources */,
+				CAB26DCB19CE9688006A148C /* EditProfileViewController.m in Sources */,
+				CAB26DD319CF5216006A148C /* TestUser.m in Sources */,
+				CA82BB9E19CE67CD006E3C0F /* LoginViewController.m in Sources */,
+				CAB26DC319CE9188006A148C /* HomeViewController.m in Sources */,
+				CAB26DBF19CE7E24006A148C /* Constants.m in Sources */,
+				CAB26DD919CFBE62006A148C /* MatchViewController.m in Sources */,
+				CAB26DC719CE948F006A148C /* SettingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,8 +522,16 @@
 		};
 		CA82BB9719CE6583006E3C0F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDF505299FA64FB0A3A47E0B /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Pods",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = MatchedUP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -357,8 +540,16 @@
 		};
 		CA82BB9819CE6583006E3C0F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDF505299FA64FB0A3A47E0B /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Pods",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = MatchedUP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -418,6 +609,7 @@
 				CA82BB9819CE6583006E3C0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA82BB9919CE6583006E3C0F /* Build configuration list for PBXNativeTarget "MatchedUPTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +618,7 @@
 				CA82BB9B19CE6583006E3C0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
